@@ -1,2 +1,8 @@
-# kospi_delisted
-Predict delisting In KOSPI market with ML models
+# Predicting Delisting Company with ML Models
+
+**1. Overview**
+
+**2. Overview**
+
+**3. Overview**
+
