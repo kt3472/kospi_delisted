@@ -22,7 +22,7 @@
  - 부채비율, 차입금비율 등의 결측값은 Target class(1 또는 0)별 평균값으로 대체
  - 상관관계가 0.95 이상 변수 제외
  - RandomForest & XGBoost Classifier를 이용하여 각 features들의 중요도를 산출
- - 1년전 시가총액과 차입부채조달금리의 중요도가 타 features대비 상대적으로 높음 
+ - "1년전 시가총액"과 "차입부채조달금리"의 중요도가 타 features대비 상대적으로 높음 
  - Features Importance
   
   ![dataset](./fi.jpg)
@@ -30,7 +30,7 @@
 **5. Model tunning**
  - 상장을 유지하고있는 종목대비 상장폐지종목수의 과소에 따른 데이터 불균형 해소(Random over-sampling)
  - 전체 data set에서 train set은 75%, test set은 25%로 분리하여 train 진랭
- - Logistic Regression, Decision tree, RandomForest, Adaboost, Gredient Boost, XGBoost 분류 모델 사용
+ - [Logistic Regression](https://ko.wikipedia.org/wiki/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1_%ED%9A%8C%EA%B7%80), [Decision tree](https://ko.wikipedia.org/wiki/%EA%B2%B0%EC%A0%95_%ED%8A%B8%EB%A6%AC_%ED%95%99%EC%8A%B5%EB%B2%95), [RandomForest](https://ko.wikipedia.org/wiki/%EB%9E%9C%EB%8D%A4_%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8), [k-Nearest Neighbour](https://ko.wikipedia.org/wiki/K-%EC%B5%9C%EA%B7%BC%EC%A0%91_%EC%9D%B4%EC%9B%83_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98), [Adaboost](https://ko.wikipedia.org/wiki/%EC%97%90%EC%9D%B4%EB%8B%A4%EB%B6%80%EC%8A%A4%ED%8A%B8), [Gredient Boost](https://en.wikipedia.org/wiki/Gradient_boosting), [XGBoost](https://brunch.co.kr/@snobberys/137) 분류 모델 사용
  - Sklean패키지의 GridSearchCV를 이용하여 최적 파라미터 산출  
  
  
