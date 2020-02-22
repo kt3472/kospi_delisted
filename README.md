@@ -39,7 +39,7 @@
  
 **6. Results**
  - 정확도와 F1-score 모두 XGBoost 분류기의 성능이 가장 우수, 반면 Logistic Regression 분류기의 성능이 가장 낮음 
- - Results
+ - Results table
  
  
    ![dataset](./result.jpg)
