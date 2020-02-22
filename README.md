@@ -23,7 +23,7 @@
  - 상관관계가 0.95 이상 변수 제외
  - RandomForest & XGBoost Classifier를 이용하여 각 features들의 중요도를 산출
  - 1년전 시가총액과 차입부채조달금리의 중요도가 타 features대비 상대적으로 높음 
- - features importance
+ - Features Importance
   
   ![dataset](./fi.jpg)
  
